@@ -11,12 +11,6 @@
     right: 0;
 }
 
- hr {
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
-}
     hr1 {
     border: 0;
     height: 1px;
@@ -25,23 +19,35 @@
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
-    h1 + h2 {
-    border: 0;
-    height: 1px;
+    h1,h2 {
     font-family: "Oswald", "Helvetica Neue";
     text-align: center;
     color: #2884C3;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
  body {
-    border: 0;
-    height: 1px;
     font-size: 1.5em;
+    font-family: "Crimson Text", "Arial";
+    line-height: 1.5;
     background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
+
+code {
+    color: #CE234C;
+    background-color: lightgray;
+}
+
+.snippet {
+    background-color: lightgray;
+}
+
+#font-practice {
+    font-style: italic;
+    color: green;
+}
+
+
+
 
 /*Write your CSS rules below!*/
 .className { }
